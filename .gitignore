@@ -2,3 +2,7 @@
 devlog.txt
 
 bin/
+deps/
+.vscode/
+
+log.txt
