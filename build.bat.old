@@ -9,4 +9,3 @@ if not exist "./bin/obj" mkdir ./bin/obj
 
 REM Compile the source code
 cl /std:c++17 /EHsc ./src/main.cpp ./src/gpu.cpp ./src/cpu.cpp ./src/log.cpp /I "./deps/nvapi/include" /Fo"./bin/obj/" /Fe"./bin/NanoMonitor.exe" /link /machine:x64 /LIBPATH:"./deps/nvapi/lib" pdh.lib User32.lib Gdi32.lib nvapi64.lib
-

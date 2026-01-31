@@ -1,8 +1,8 @@
 
-devlog.txt
-
+.vscode/
 bin/
 deps/
-.vscode/
 
-log.txt
+# Zig build outputs
+zig-out/
+.zig-cache/

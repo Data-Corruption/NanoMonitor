@@ -1,0 +1,7 @@
+// NanoMonitor - Hardware monitor overlay
+.{
+    .name = .NanoMonitor,
+    .version = "0.1.0",
+    .paths = .{""},
+    .fingerprint = 0xff327b0d359f2535,
+}
