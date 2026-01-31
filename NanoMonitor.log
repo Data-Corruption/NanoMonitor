@@ -1,0 +1,10 @@
+[1769850175] NanoMonitor starting...
+[1769850175] PDH initialized successfully
+[1769850175] NVAPI initialized successfully (dynamic loading)
+[1769850175] NanoMonitor window created, entering message loop
+[1769850948] NanoMonitor starting...
+[1769850948] PDH initialized successfully
+[1769850948] IPlatform::Init failed
+[1769850948] RyzenMaster init failed (AMD CPU temp unavailable): error.PlatformInitFailed
+[1769850948] NVAPI initialized successfully (dynamic loading)
+[1769850948] NanoMonitor window created, entering message loop

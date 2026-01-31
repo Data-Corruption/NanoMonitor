@@ -1,0 +1,7 @@
+// NanoMonitor Resource Script
+// Embeds the application manifest for admin elevation
+
+#include <winuser.h>
+
+// This embeds the manifest that requests admin privileges
+1 RT_MANIFEST "NanoMonitor.manifest"

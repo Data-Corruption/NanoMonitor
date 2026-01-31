@@ -30,6 +30,9 @@ pub fn build(b: *std.Build) void {
     // Note: NVAPI is now loaded dynamically at runtime via LoadLibrary
     // This avoids the MSVC C++ runtime dependency
 
+    // Add Windows manifest for admin privileges (needed for RyzenMaster SDK)
+    exe.addWin32ResourceFile(.{ .file = b.path("resources.rc") });
+
     // Install the executable to zig-out/bin/
     b.installArtifact(exe);
 
